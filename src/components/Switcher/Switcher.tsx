@@ -18,7 +18,7 @@ const Switcher = () => {
             {[Language.EN, Language.RU].map((lang: Language) => {
                 return (
                     <div className={`switcher__item ${currentLanguage === lang ? "switcher__item_state_active" : ""}`}
-                         onClick={() => dispatch(switchLanguage(lang))}>{ lang }</div>
+                         onClick={() => dispatch(switchLanguage(lang))}>{ lang.toUpperCase() }</div>
                 )
             })}
         </div>

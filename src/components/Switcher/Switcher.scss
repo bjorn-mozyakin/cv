@@ -1,20 +1,24 @@
-@import '../../App.scss';
+@import '../../styles/vars';
 
 .switcher {
-  display: flex;
+  display: inline-flex;
+  border-radius: 4px;
+  padding: $bmu/2 $bmu;
+  background-color: $cBeigeLight;
 
   &__item {
     padding: $bmu/2;
-    color: $cBlackLight;
+    border-radius: 4px;
+    color: $cBlack;
     cursor: pointer;
 
     &_state_active {
-      color: $cRed;
-      text-decoration: underline;
+      color: $cWhite;
+      background-color: $cBlue;
     }
 
     &:hover {
-      color: $cGold;
+      text-decoration: underline;
     }
   }
 }
