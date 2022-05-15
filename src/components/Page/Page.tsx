@@ -1,11 +1,19 @@
+// React/Redux
 import React from "react";
+import { Language, State } from '../../entities/State';
+import { useSelector } from 'react-redux';
+
+import locale from '../../localization.js';
+
 
 const Page = () => {
+  const currentLanguage: Language = useSelector((state: { common: State }) => state.common.language );
+
   return (
     <div className="about">
 
     <div id="about" className="about__container">
-      <h1 className="about__title js-menu-section" data-item="about">Раков Дмитрий</h1>
+      <h1 className="about__title js-menu-section" data-item="about">{ locale[currentLanguage].name }</h1>
       <h2 className="about__title">Frontend-разработчик / HTML-верстальщик</h2>
       <div className="about__skills">
         <h3 className="about__title">Основные навыки</h3>
