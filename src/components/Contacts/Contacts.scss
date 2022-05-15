@@ -1,0 +1,23 @@
+@import '../../styles/vars';
+
+.contacts {
+  position: fixed;
+  left: 0;
+  top: 100px; // TODO переделать дизайн
+  width: 200px;
+  height: 100vh;
+  padding: 2*$bmu;
+  border-right: 2px solid $cBlue;
+  background-color: $cBeigeDark;
+  color: $cBlack;
+  font-size: 16px;
+  font-weight: 400;
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item:not(:first-child) {
+    margin-top: 2*$bmu;
+  }
+}

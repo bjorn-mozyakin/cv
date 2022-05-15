@@ -2,6 +2,7 @@ const local = {
   en: {
     name: 'Dmitrii Rakov',
     profession: 'Frontend Developer',
+    hometown: 'Istanbul, Turkey',
     mainSkillsTitle: 'Skills',
     mainSkillsList: {
       html_css: "HTML Pug CSS SCSS SASS LESS Stylus BEM SMACSS",
@@ -19,11 +20,13 @@ const local = {
       russian: "Russian - Native speaker",
       spanish: "Spanish - A1 (Elementary)",
       turkey: "Turkey - A1 (Elementary)"
-    }
+    },
+    contactsTitle: "Contacts"
   },
   ru: {
     name: 'Дмитрий Раков',
     profession: 'Frontend-разработчик',
+    hometown: 'Стамбул, Турция',
     mainSkillsTitle: 'Основные навыки',
     mainSkillsList: {
       html_css: "HTML Pug CSS SCSS SASS LESS Stylus BEM SMACSS",
@@ -42,6 +45,7 @@ const local = {
       spanish: "Испанский - A1 (Elementary)",
       turkey: "Турецкий - A1 (Elementary)"
     },
+    contactsTitle: "Контакты"
   }
 }
 
