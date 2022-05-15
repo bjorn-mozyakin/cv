@@ -1,0 +1,20 @@
+@import '../../App.scss';
+
+.switcher {
+  display: flex;
+
+  &__item {
+    padding: $bmu/2;
+    color: $cBlackLight;
+    cursor: pointer;
+
+    &_state_active {
+      color: $cRed;
+      text-decoration: underline;
+    }
+
+    &:hover {
+      color: $cGold;
+    }
+  }
+}
