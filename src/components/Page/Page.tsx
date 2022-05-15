@@ -9,14 +9,27 @@ import locale from '../../localization.js';
 const Page = () => {
   const currentLanguage: Language = useSelector((state: { common: State }) => state.common.language );
 
+  const {
+    name,
+    profession,
+    mainSkillsTitle,
+    mainSkillsList,
+    supportSkillsTitle,
+    supportSkillsList,
+    obsoleteSkillsTitle,
+    obsoleteSkillsList,
+    languagesTitle,
+    languagesList
+  } = locale[currentLanguage];
+
   return (
     <div className="about">
 
     <div id="about" className="about__container">
-      <h1 className="about__title js-menu-section" data-item="about">{ locale[currentLanguage].name }</h1>
-      <h2 className="about__title">Frontend-разработчик / HTML-верстальщик</h2>
+      <h1 className="about__title js-menu-section" data-item="about">{ name }</h1>
+      <h2 className="about__title">{ profession }</h2>
       <div className="about__skills">
-        <h3 className="about__title">Основные навыки</h3>
+        <h3 className="about__title">{ mainSkillsTitle }</h3>
         <ul className="about__skills-list list">
           <li className="list__item">Верстка: <strong>HTML5, Pug/Jade, CSS3, SASS/LESS/Stylus, PostCSS</strong>.
             Кроссбраузерная, адаптивная, валидная
@@ -47,12 +60,33 @@ const Page = () => {
             могу мандаринами пожонглировать
           </li>
         </ul>
-        <h3 className="about__title">Иностранные языки</h3>
+        <h3 className="about__title">{ mainSkillsTitle }</h3>
+        <ul className="about__skills-list list">
+            { Object.values(mainSkillsList).map((skill: string) => {
+                return <li className="list__item"> { skill }</li>
+            }) }
+        </ul>
+        <h3 className="about__title">{ supportSkillsTitle }</h3>
+        <ul className="about__skills-list list">
+            { supportSkillsList.split(' ').map((skill) => {
+                return <li className="list__item"> { skill }</li>
+            }) }
+        </ul>
+        <h3 className="about__title">{ obsoleteSkillsTitle }</h3>
+        <ul className="about__skills-list list">
+            { obsoleteSkillsList.split(' ').map((skill) => {
+                return <li className="list__item"> { skill }</li>
+            }) }
+        </ul>
+        <h3 className="about__title">{ languagesTitle }</h3>
         <ul className="about__skills-list list">
           <li className="list__item"><strong>Английский (Upper-Intermediate)</strong> - могу вести деловую переписку,
             читать профессиональную литературу и общаться на общие темы
           </li>
           <li className="list__item"><strong>Испанский</strong> - базовые знания</li>
+          { Object.values(languagesList).map((lang: any) => {
+            return <li className="list__item"><strong>{ lang }</strong></li>
+          })}
         </ul>
       </div>
       <div className="about__cv">
