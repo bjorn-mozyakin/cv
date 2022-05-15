@@ -10,8 +10,6 @@ const Page = () => {
   const currentLanguage: Language = useSelector((state: { common: State }) => state.common.language );
 
   const {
-    name,
-    profession,
     mainSkillsTitle,
     mainSkillsList,
     supportSkillsTitle,
@@ -26,8 +24,6 @@ const Page = () => {
     <div className="about">
 
     <div id="about" className="about__container">
-      <h1 className="about__title js-menu-section" data-item="about">{ name }</h1>
-      <h2 className="about__title">{ profession }</h2>
       <div className="about__skills">
         <h3 className="about__title">{ mainSkillsTitle }</h3>
         <ul className="about__skills-list list">

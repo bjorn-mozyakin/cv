@@ -1,0 +1,32 @@
+@import '../../styles/vars';
+
+.topbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 3*$bmu;
+  border-bottom: 2px solid $cBlue;
+  text-align: center;
+  background-color: $cBeigeDark;
+
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: $cBlack;
+  }
+
+  &__subtitle {
+    margin-top: $bmu/2;
+    font-size: 18px;
+    font-weight: 500;
+    color: $cBlack;
+  }
+
+  &__switcher {
+    position: absolute;
+    right: $bmu;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

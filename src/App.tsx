@@ -4,12 +4,12 @@ import './App.scss';
 
 // import Menu from './components/Menu/Menu';
 import Page from './components/Page/Page';
-import Switcher from './components/Switcher/Switcher';
+import Topbar from './components/Topbar/Topbar';
 
 function App() {
   return (
     <div className="App">
-      <Switcher />
+        <Topbar />
       <Page />
     </div>
   );
