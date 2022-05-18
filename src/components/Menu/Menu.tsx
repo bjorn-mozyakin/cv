@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
 
 const Menu = () => {
   return (
     <nav className="nav">
       <div className="nav__container">
-        <a className="nav__logo" href="/">Crablog.ru</a>
+        <a className="nav__logo" href="/">
+          Crablog.ru
+        </a>
         <ul className="nav__menu menu">
           <li className="menu__item">
             <a href="#portfolio" className="menu__link menu__link_portfolio">
@@ -28,4 +30,3 @@ const Menu = () => {
 };
 
 export default Menu;
-

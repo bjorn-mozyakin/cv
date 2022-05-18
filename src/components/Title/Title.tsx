@@ -5,13 +5,11 @@ import './Title.scss';
 import React from 'react';
 
 interface Props {
-    children?: React.ReactNode
+  children?: React.ReactNode;
 }
-const Title = ({ children }: Props) => {
 
-    return (
-        <h3 className="title">{ children }</h3>
-    )
-}
+const Title = ({ children }: Props) => {
+  return <h3 className="title">{children}</h3>;
+};
 
 export default Title;

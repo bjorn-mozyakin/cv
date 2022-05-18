@@ -1,26 +1,22 @@
 // Styles
 import './index.scss';
 
-// React
+// React/Redux
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-// Redux
-import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
-import rootReducer from './store/rootReducer';
+import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
+
+import rootReducer from './store/rootReducer';
 
 // Components
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
 const store = createStore(rootReducer, applyMiddleware(thunk));
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
 root.render(
   <React.StrictMode>

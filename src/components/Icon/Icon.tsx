@@ -5,14 +5,11 @@ import './Icon.scss';
 import React from 'react';
 
 interface Props {
-    children?: React.ReactNode,
-    icon: string,
+  children?: React.ReactNode;
+  icon: string;
 }
 const Icon = ({ children, icon }: Props) => {
-
-    return (
-        <div className={`icon ${icon ? `icon__${icon}` : ""}`}>{ children }</div>
-    )
-}
+  return <div className={`icon ${icon ? `icon__${icon}` : ''}`}>{children}</div>;
+};
 
 export default Icon;

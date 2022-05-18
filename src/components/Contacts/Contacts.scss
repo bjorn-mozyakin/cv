@@ -2,16 +2,16 @@
 
 .contacts {
   position: fixed;
-  left: 0;
   top: 100px; // TODO переделать дизайн
+  left: 0;
   width: 200px;
   height: 100vh;
   padding: 2*$bmu;
   border-right: 2px solid $cBlue;
-  background-color: $cBeigeDark;
-  color: $cBlack;
   font-size: 16px;
   font-weight: 400;
+  color: $cBlack;
+  background-color: $cBeigeDark;
 
   &__list {
     list-style-type: none;

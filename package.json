@@ -20,7 +20,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint-styles": "npx stylelint '**/*.scss'",
+    "lint-js": "npx eslint '**/*.tsx'",
+    "stylelint-check": "stylelint-config-prettier-check"
   },
   "eslintConfig": {
     "extends": [
@@ -42,9 +45,21 @@
   },
   "devDependencies": {
     "@types/react-redux": "^7.1.24",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import-helpers": "^1.2.1",
+    "eslint-plugin-react": "^7.29.4",
+    "prettier": "^2.6.2",
     "react-redux": "^8.0.1",
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
-    "sass": "^1.51.0"
+    "sass": "^1.51.0",
+    "stylelint": "^14.8.2",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0"
   }
 }

@@ -2,8 +2,8 @@
 
 .topbar {
   position: fixed;
-  left: 0;
   top: 0;
+  left: 0;
   width: 100%;
   padding: 3*$bmu;
   border-bottom: 2px solid $cBlue;
@@ -25,8 +25,8 @@
 
   &__switcher {
     position: absolute;
-    right: $bmu;
     top: 50%;
+    right: $bmu;
     transform: translateY(-50%);
   }
 }
