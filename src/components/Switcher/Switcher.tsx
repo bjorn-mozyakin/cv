@@ -24,9 +24,10 @@ const Switcher: React.FC<Props> = ({ additionalClasses = [] }) => {
 
   return (
     <div className={switcherClasses}>
-      {[Language.EN, Language.RU].map((lang: Language) => {
+      {[Language.EN, Language.RU].map((lang: Language, i: number) => {
         return (
           <div
+            key={`languages_${i}`}
             className={`switcher__item ${
               currentLanguage === lang ? 'switcher__item_state_active' : ''
             }`}

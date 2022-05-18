@@ -78,20 +78,35 @@ const Page = () => {
           </ul>
           <h3 className="about__title">{mainSkillsTitle}</h3>
           <ul className="about__skills-list list">
-            {Object.values(mainSkillsList).map((skill: string) => {
-              return <li className="list__item"> {skill}</li>;
+            {Object.values(mainSkillsList).map((skill: string, i: number) => {
+              return (
+                <li key={`mainSkills_${i}`} className="list__item">
+                  {' '}
+                  {skill}
+                </li>
+              );
             })}
           </ul>
           <h3 className="about__title">{supportSkillsTitle}</h3>
           <ul className="about__skills-list list">
-            {supportSkillsList.split(' ').map((skill) => {
-              return <li className="list__item"> {skill}</li>;
+            {supportSkillsList.split(' ').map((skill: string, i: number) => {
+              return (
+                <li key={`supportSkills_${i}`} className="list__item">
+                  {' '}
+                  {skill}
+                </li>
+              );
             })}
           </ul>
           <h3 className="about__title">{obsoleteSkillsTitle}</h3>
           <ul className="about__skills-list list">
-            {obsoleteSkillsList.split(' ').map((skill) => {
-              return <li className="list__item"> {skill}</li>;
+            {obsoleteSkillsList.split(' ').map((skill: string, i: number) => {
+              return (
+                <li key={`obsoleteSkills_${i}`} className="list__item">
+                  {' '}
+                  {skill}
+                </li>
+              );
             })}
           </ul>
           <h3 className="about__title">{languagesTitle}</h3>
@@ -103,9 +118,9 @@ const Page = () => {
             <li className="list__item">
               <strong>Испанский</strong> - базовые знания
             </li>
-            {Object.values(languagesList).map((lang: any) => {
+            {Object.values(languagesList).map((lang: string, i: number) => {
               return (
-                <li className="list__item">
+                <li key={`languages_${i}`} className="list__item">
                   <strong>{lang}</strong>
                 </li>
               );
