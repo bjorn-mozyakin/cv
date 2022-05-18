@@ -1,0 +1,14 @@
+@import '../../styles/vars';
+
+.plate {
+  display: inline-flex;
+  margin: $bmu;
+  padding: $bmu;
+  border-radius: 6px;
+  color: $cWhite;
+  background-color: $cBlue;
+
+  &:not(:first-child) {
+    margin-left: $bmu;
+  }
+}
