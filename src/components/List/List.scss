@@ -1,0 +1,36 @@
+@import '../../styles/vars';
+
+.list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3*$bmu 0;
+  padding: 1.5*$bmu $bmu $bmu;
+  border: 1px dotted $cBlack;
+  border-radius: 6px;
+  list-style-type: none;
+
+  &_direction_horizontal {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &_direction_vertical {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &__title {
+    position: absolute;
+    top: -1.25*$bmu;
+    left: 1.5*$bmu;
+    padding: $bmu/4 $bmu/2;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: $cBlack;
+    background-color: $cBeigeLight;
+  }
+}

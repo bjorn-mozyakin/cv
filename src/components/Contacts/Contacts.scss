@@ -1,17 +1,21 @@
 @import '../../styles/vars';
 
 .contacts {
-  position: fixed;
-  top: 100px; // TODO переделать дизайн
-  left: 0;
+  align-self: center;
   width: 200px;
-  height: 100vh;
-  padding: 2*$bmu;
-  border-right: 2px solid $cBlue;
+  padding: 4*$bmu 2*$bmu;
+  border-right: .5px solid $cBlack;
   font-size: 16px;
   font-weight: 400;
   color: $cBlack;
-  background-color: $cBeigeDark;
+
+  &__title {
+    margin-bottom: 2*$bmu;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: $cBlack;
+  }
 
   &__list {
     list-style-type: none;

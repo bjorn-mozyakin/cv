@@ -8,16 +8,18 @@ import React from 'react';
 
 // Components
 import Contacts from './components/Contacts/Contacts';
-// import Menu from './components/Menu/Menu';
-import Page from './components/Page/Page';
+import Content from './components/Content/Content';
+import Skills from './components/Skills/Skills';
 import Topbar from './components/Topbar/Topbar';
 
 function App() {
   return (
     <div className="App">
-      <Contacts />
       <Topbar />
-      <Page />
+      <Content>
+        <Contacts />
+        <Skills />
+      </Content>
     </div>
   );
 }

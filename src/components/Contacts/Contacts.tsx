@@ -12,7 +12,6 @@ import locale from '../../localization.js';
 
 import Icon from '../Icon/Icon';
 import Link from '../Link/Link';
-import Title from '../Title/Title';
 
 const Contacts = () => {
   const currentLanguage: Language = useSelector(
@@ -23,7 +22,7 @@ const Contacts = () => {
 
   return (
     <div className="contacts">
-      <Title>{contactsTitle}</Title>
+      <div className="contacts__title">{contactsTitle}</div>
       <ul className="contacts__list">
         <li className="contacts__item">
           <Icon {...{ icon: 'home' }}>{hometown}</Icon>

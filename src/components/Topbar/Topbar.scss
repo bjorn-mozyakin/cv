@@ -1,25 +1,27 @@
 @import '../../styles/vars';
 
 .topbar {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding: 3*$bmu;
-  border-bottom: 2px solid $cBlue;
+  height: $hTopbar;
+  border-bottom: 1px solid $cBlue;
   text-align: center;
   background-color: $cBeigeDark;
 
   &__title {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 400;
     color: $cBlack;
   }
 
   &__subtitle {
     margin-top: $bmu/2;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     color: $cBlack;
   }
 

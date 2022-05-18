@@ -1,9 +1,9 @@
-import { State, Language } from "../../entities/State";
+import { State, Language } from '../../entities/State';
 
-import * as ACTIONS from "./common.actions-consts";
+import * as ACTIONS from './common.actions-consts';
 
 const initialState: State = {
-  language: Language.RU,
+  language: Language.EN
 };
 
 const reducerCommon = (state = initialState, action: any) => {
@@ -11,7 +11,7 @@ const reducerCommon = (state = initialState, action: any) => {
     case ACTIONS.SWITCH_LANGUAGE:
       return {
         ...state,
-        language: action.language,
+        language: action.language
       };
 
     default:

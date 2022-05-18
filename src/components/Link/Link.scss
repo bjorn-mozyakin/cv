@@ -1,10 +1,10 @@
 @import '../../styles/vars';
 
 .link {
-  text-decoration: underline;
-  color: $cBlack;
+  text-decoration: none;
+  color: $cBlueDark;
 
   &:hover {
-    color: $cBlue;
+    text-decoration: underline;
   }
 }

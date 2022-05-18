@@ -1,0 +1,15 @@
+@import '../../styles/vars';
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 2*$bmu;
+  background-color: $cBeigeLight;
+
+  &__block:not(:first-child) {
+    flex-grow: 1;
+    width: 100%;
+    margin-left: 2*$bmu;
+  }
+}
