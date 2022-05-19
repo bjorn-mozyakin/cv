@@ -11,6 +11,7 @@ import { Language, State } from '../../entities/State';
 import locale from '../../localization/localization.js';
 
 import Icon from '../Icon/Icon';
+
 import Link from '../Link/Link';
 
 const Contacts = () => {
