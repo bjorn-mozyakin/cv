@@ -14,7 +14,7 @@ import Topbar from './components/Topbar/Topbar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Topbar />
       <Content>
         <Contacts />

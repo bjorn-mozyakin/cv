@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 // Components
 import { Language, State } from '../../entities/State';
 
-import locale from '../../localization.js';
+import locale from '../../localization/localization.js';
 
 import Icon from '../Icon/Icon';
 import Link from '../Link/Link';

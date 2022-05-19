@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 
 import { Language, State } from '../../entities/State';
 
-import locale from '../../localization.js';
+import locale from '../../localization/localization.js';
 
 // Components
 import Switcher from '../Switcher/Switcher';

@@ -1,3 +1,5 @@
+import { AnyAction } from 'redux';
+
 import { State, Language } from '../../entities/State';
 
 import * as ACTIONS from './common.actions-consts';
@@ -6,7 +8,7 @@ const initialState: State = {
   language: Language.EN
 };
 
-const reducerCommon = (state = initialState, action: any) => {
+const reducerCommon = (state = initialState, action: AnyAction) => {
   switch (action.type) {
     case ACTIONS.SWITCH_LANGUAGE:
       return {
