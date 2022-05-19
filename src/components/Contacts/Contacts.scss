@@ -9,6 +9,11 @@
   font-weight: 400;
   color: $cBlack;
 
+  @media (max-width: 800px) {
+    border-top: .5px solid $cBlack;
+    border-right: none
+  }
+
   &__title {
     margin-bottom: 2*$bmu;
     font-size: 18px;

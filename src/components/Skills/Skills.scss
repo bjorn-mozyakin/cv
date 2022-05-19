@@ -7,9 +7,20 @@
   margin: 0 2*$bmu;
   background-color: $cBeigeLight;
 
-  &__block:not(:first-child) {
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  &__block {
     flex-grow: 1;
     width: 100%;
-    margin-left: 2*$bmu;
+
+    &:not(:first-child) {
+      margin-left: 2*$bmu;
+
+      @media (max-width: 800px) {
+        margin-left: 0;
+      }
+    }
   }
 }

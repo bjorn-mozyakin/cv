@@ -5,4 +5,10 @@
   flex-grow: 1;
   align-items: flex-start;
   background-color: $cBeigeLight;
+
+  @media (max-width: 800px) {
+    & {
+      flex-direction: column-reverse;
+    }
+  }
 }
