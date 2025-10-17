@@ -23,6 +23,7 @@ const local = {
       french: 'French - A2 (Elementary)'
     },
     contactsTitle: 'Contacts',
+    worksTitle: 'Work Samples',
     worksList: [
       {
         title: 'Balespo',
@@ -49,32 +50,32 @@ const local = {
         link: '/'
       },
       {
-        title: 'ВВерстка 1',
+        title: 'Верстка 1',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'ВВерстка 2',
+        title: 'Верстка 2',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'ВВерстка 3',
+        title: 'Верстка 3',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'ВВерстка 4',
+        title: 'Верстка 4',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       }                                     
     ]
   },
-    sk: {
+  sk: {
     name: 'Dmitrii Rakov',
     profession: 'Webový vývojár',
     hometown: 'Bratislava, Slovensko',
@@ -98,6 +99,7 @@ const local = {
       french: 'Francúzština - A2 (základná úroveň)'
     },
     contactsTitle: 'Kontakty',
+    worksTitle: 'Ukážky prác',
     worksList: [
       {
         title: 'Balespo',
@@ -124,25 +126,25 @@ const local = {
         link: '/'
       },
       {
-        title: 'ВВерстка 1',
+        title: 'Верстка 1',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'ВВерстка 2',
+        title: 'Верстка 2',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'ВВерстка 3',
+        title: 'Верстка 3',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'ВВерстка 4',
+        title: 'Верстка 4',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
@@ -173,6 +175,7 @@ const local = {
       french: 'Французский - A2 (Elementary)'
     },
     contactsTitle: 'Контакты',
+    worksTitle: 'Примеры работ',
     worksList: [
       {
         title: 'Balespo',
@@ -199,25 +202,25 @@ const local = {
         link: '/'
       },
       {
-        title: 'ВВерстка 1',
+        title: 'Верстка 1',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'ВВерстка 2',
+        title: 'Верстка 2',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'ВВерстка 3',
+        title: 'Верстка 3',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'ВВерстка 4',
+        title: 'Верстка 4',
         imgSrc: '/test.jpg',
         alt: 'Посмотреть сайт',
         link: '/'

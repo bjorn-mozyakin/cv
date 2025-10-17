@@ -23,23 +23,25 @@ const Skills = () => {
   );
 
   const {
-    layoutTitle,
-    layoutList,
+    worksTitle,
     worksList
   } = locale[currentLanguage];
 
   return (
     <div className="works">
-      {worksList.map((work: { title: string, imgSrc: string, link: string, alt: string}, i: number) => {
-        return (
-          <div className="works__block" key={`item_${i}`}>
-            <Link {...{ href: work.link }}>
-              <img className="works__img" src={work.imgSrc} alt={work.alt} />
-            </Link>
-            <div className="works__title">{work.title}</div>
-          </div>
-        );
-      })}
+      <List direction="horizontal">
+        <ListTitle>{worksTitle}</ListTitle>
+        {worksList.map((work: { title: string, imgSrc: string, link: string, alt: string}, i: number) => {
+          return (
+              <div className="works__block" key={`item_${i}`}>
+                <Link {...{ href: work.link }}>
+                  <img className="works__img" src={work.imgSrc} alt={work.alt} />
+                </Link>
+                <div className="works__title">{work.title}</div>
+              </div>
+          );
+        })}
+      </List>
     </div>
   );
 };
