@@ -1,0 +1,47 @@
+@import '../../styles/vars';
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2*$bmu;
+  color: $cBlack;
+  background-color: $cBeigeLight;
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding: 2*$bmu;
+
+    // &:not(:first-child) {
+    //   margin-left: 2*$bmu;
+
+    //   @media (max-width: 800px) {
+    //     margin-left: 0;
+    //   }
+    // }
+  }
+
+  &__title {
+    padding: $bmu;
+  }
+
+  &__img {
+    display: block;
+    overflow: hidden;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    background: gray;
+    opacity: .8;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
+}

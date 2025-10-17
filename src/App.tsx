@@ -9,8 +9,10 @@ import React from 'react';
 // Components
 import Contacts from './components/Contacts/Contacts';
 import Content from './components/Content/Content';
+import Main from './components/Main/Main';
 import Skills from './components/Skills/Skills';
 import Topbar from './components/Topbar/Topbar';
+import Works from './components/Works/Works';
 
 function App() {
   return (
@@ -18,7 +20,10 @@ function App() {
       <Topbar />
       <Content>
         <Contacts />
-        <Skills />
+        <Main> 
+          <Skills />
+          <Works />
+        </Main>
       </Content>
     </div>
   );

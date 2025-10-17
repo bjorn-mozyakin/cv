@@ -9,7 +9,7 @@ interface Props {
 }
 
 const Content = ({ children }: Props) => {
-  return <h3 className="content">{children}</h3>;
+  return <div className="content">{children}</div>;
 };
 
 export default Content;

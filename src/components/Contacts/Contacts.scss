@@ -1,17 +1,35 @@
 @import '../../styles/vars';
 
 .contacts {
-  align-self: center;
-  width: 200px;
-  padding: 4*$bmu 2*$bmu;
-  border-right: .5px solid $cBlack;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: $hTopbar/2;
   font-size: 16px;
   font-weight: 400;
   color: $cBlack;
+  
+  @media (max-width: $wAdaptivePoint) {
+    position: relative;
+    height: auto;
+    margin-top: 0;
+  }
+  
+  &__container {
+    width: $wSidebar;
+    padding: 4*$bmu 2*$bmu;
+    border-right: .5px solid $cBlack;
 
-  @media (max-width: 800px) {
-    border-top: .5px solid $cBlack;
-    border-right: none
+    @media (max-width: $wAdaptivePoint) {
+      width: 100%;
+      border-top: .5px solid $cBlack;
+      border-right: none;
+    }
   }
 
   &__title {

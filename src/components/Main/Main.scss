@@ -1,16 +1,14 @@
 @import '../../styles/vars';
 
-.content {
+.main {
   display: flex;
+  flex-direction: column;
   flex-grow: 1;
   align-items: flex-start;
-  margin-top: $hTopbar;
+  margin-left: $wSidebar;
   background-color: $cBeigeLight;
 
   @media (max-width: $wAdaptivePoint) {
-    & {
-      align-items: center;
-      flex-direction: column-reverse;
-    }
+    margin-left: 0;
   }
 }
