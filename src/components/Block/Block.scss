@@ -1,0 +1,28 @@
+@import '../../styles/vars';
+
+.block {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3*$bmu 0;
+  padding: 1.5*$bmu $bmu $bmu;
+  border: 1px dotted $cBlack;
+  border-radius: 6px;
+
+  &__title {
+    position: absolute;
+    top: -1.25*$bmu;
+    left: 1.5*$bmu;
+    padding: $bmu/4 $bmu/2;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: $cBlack;
+    background-color: $cBeigeLight;
+  }
+
+  &__text {
+    margin: 2*$bmu;
+  }
+}

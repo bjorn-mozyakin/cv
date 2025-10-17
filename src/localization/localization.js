@@ -24,55 +24,62 @@ const local = {
     },
     contactsTitle: 'Contacts',
     worksTitle: 'Work Samples',
+    worksText: "More work samples available upon request.",
     worksList: [
       {
         title: 'Balespo',
-        imgSrc: '/test.jpg',
+        imgSrc: '/balespo-200.jpg',
         alt: 'Посмотреть сайт',
         link: 'https://balespo.com/'
       },
       {
         title: 'Xploration',
-        imgSrc: '/test.jpg',
+        imgSrc: '/xploration-200.jpg',
         alt: 'Посмотреть сайт',
         link: 'https://xploration.club/'
       },
       {
         title: 'Little Dino',
-        imgSrc: '/test.jpg',
+        imgSrc: '/little-dinos-200.jpg',
         alt: 'Посмотреть сайт',
         link: 'https://little-dinos-game.onrender.com/'
       },
       {
         title: 'Bellydance',
-        imgSrc: '/test.jpg',
+        imgSrc: '/bellydance-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 1',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Construction',
+        imgSrc: '/layout-tm-52266-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 2',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Car Rental',
+        imgSrc: '/layout-tm-57633-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 3',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Gifts Store',
+        imgSrc: '/layout-tm-53330-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 4',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Bislite',
+        imgSrc: '/layout-bislite-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
-      }                                     
+      },
+      {
+        title: 'Шаблон Webpaine',
+        imgSrc: '/layout-webpaint-200.jpg',
+        alt: 'Посмотреть сайт',
+        link: '/'
+      }                                                 
     ]
   },
   sk: {
@@ -100,55 +107,62 @@ const local = {
     },
     contactsTitle: 'Kontakty',
     worksTitle: 'Ukážky prác',
+    worksText: "Ďalšie ukážky prác sú k dispozícii na požiadanie.",
     worksList: [
       {
         title: 'Balespo',
-        imgSrc: '/test.jpg',
+        imgSrc: '/balespo-200.jpg',
         alt: 'Посмотреть сайт',
         link: 'https://balespo.com/'
       },
       {
         title: 'Xploration',
-        imgSrc: '/test.jpg',
+        imgSrc: '/xploration-200.jpg',
         alt: 'Посмотреть сайт',
         link: 'https://xploration.club/'
       },
       {
         title: 'Little Dino',
-        imgSrc: '/test.jpg',
+        imgSrc: '/little-dinos-200.jpg',
         alt: 'Посмотреть сайт',
         link: 'https://little-dinos-game.onrender.com/'
       },
       {
         title: 'Bellydance',
-        imgSrc: '/test.jpg',
+        imgSrc: '/bellydance-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 1',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Construction',
+        imgSrc: '/layout-tm-52266-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 2',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Car Rental',
+        imgSrc: '/layout-tm-57633-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 3',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Gifts Store',
+        imgSrc: '/layout-tm-53330-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 4',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Bislite',
+        imgSrc: '/layout-bislite-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
-      }                                     
+      },
+      {
+        title: 'Шаблон Webpaine',
+        imgSrc: '/layout-webpaint-200.jpg',
+        alt: 'Посмотреть сайт',
+        link: '/'
+      }                                                 
     ]
   },
   ru: {
@@ -176,55 +190,62 @@ const local = {
     },
     contactsTitle: 'Контакты',
     worksTitle: 'Примеры работ',
+    worksText: "Дополнительные примеры работ доступны по запросу.",
     worksList: [
       {
         title: 'Balespo',
-        imgSrc: '/test.jpg',
+        imgSrc: '/balespo-200.jpg',
         alt: 'Посмотреть сайт',
         link: 'https://balespo.com/'
       },
       {
         title: 'Xploration',
-        imgSrc: '/test.jpg',
+        imgSrc: '/xploration-200.jpg',
         alt: 'Посмотреть сайт',
         link: 'https://xploration.club/'
       },
       {
         title: 'Little Dino',
-        imgSrc: '/test.jpg',
+        imgSrc: '/little-dinos-200.jpg',
         alt: 'Посмотреть сайт',
         link: 'https://little-dinos-game.onrender.com/'
       },
       {
         title: 'Bellydance',
-        imgSrc: '/test.jpg',
+        imgSrc: '/bellydance-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 1',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Construction',
+        imgSrc: '/layout-tm-52266-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 2',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Car Rental',
+        imgSrc: '/layout-tm-57633-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 3',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Gifts Store',
+        imgSrc: '/layout-tm-53330-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
       },
       {
-        title: 'Верстка 4',
-        imgSrc: '/test.jpg',
+        title: 'Шаблон Bislite',
+        imgSrc: '/layout-bislite-200.jpg',
         alt: 'Посмотреть сайт',
         link: '/'
-      }                                     
+      },
+      {
+        title: 'Шаблон Webpaine',
+        imgSrc: '/layout-webpaint-200.jpg',
+        alt: 'Посмотреть сайт',
+        link: '/'
+      }                                                 
     ]
   }
 };

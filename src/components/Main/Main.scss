@@ -5,7 +5,7 @@
   flex-direction: column;
   flex-grow: 1;
   align-items: flex-start;
-  margin-left: $wSidebar;
+  margin-left: $wSidebar + 2*$bmu;
   background-color: $cBeigeLight;
 
   @media (max-width: $wAdaptivePoint) {

@@ -1,13 +1,15 @@
 @import '../../styles/vars';
 
 .works {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 2*$bmu;
   color: $cBlack;
   background-color: $cBeigeLight;
+  
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
 
   &__block {
     display: flex;
@@ -25,23 +27,26 @@
     // }
   }
 
-  &__title {
-    padding: $bmu;
+  &__link {
+    overflow: hidden;
+    border-radius: 10px;
   }
-
+  
   &__img {
     display: block;
-    overflow: hidden;
     width: 200px;
     height: 150px;
-    border-radius: 5px;
     background: gray;
-    opacity: .8;
+    opacity: .3;
     transition: transform 0.3s ease;
-
+    
     &:hover {
       opacity: 1;
       transform: scale(1.2);
     }
+  }
+  
+  &__title {
+    padding: $bmu;
   }
 }
