@@ -1,6 +1,7 @@
 export enum Language {
   RU = 'ru',
-  EN = 'en'
+  EN = 'en',
+  SK = 'sk'
 }
 
 export interface State {

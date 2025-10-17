@@ -1,8 +1,8 @@
 const local = {
   en: {
     name: 'Dmitrii Rakov',
-    profession: 'Frontend Developer',
-    hometown: 'Istanbul, Turkey',
+    profession: 'Web Developer',
+    hometown: 'Bratislava, Slovakia',
     layoutTitle: 'Layout',
     layoutList: 'HTML Pug CSS SCSS/SASS LESS Stylus BEM SMACSS',
     jsTitle: 'JavaScript',
@@ -13,21 +13,46 @@ const local = {
     environmentList: 'Git/Github/Gitlab Docker Webpack/Gulp Jira/Basecamp PhpStorm/Sublime',
     supportSkillsTitle: 'Support skills',
     supportSkillsList: 'Php Node.js Next.js Jest',
-    obsoleteSkillsTitle: 'Obsolete skills',
+    obsoleteSkillsTitle: 'Legacy',
     obsoleteSkillsList: 'jQuery CoffeeScript Underscore.js Joomla Wordpress',
     languagesTitle: 'Languages',
     languagesList: {
       english: 'English - B2 (Upper-Intermediate)',
       russian: 'Russian - Native speaker',
-      spanish: 'Spanish - A1 (Elementary)',
-      turkey: 'Turkey - A1 (Elementary)'
+      slovakian: 'Slovakian - A1 (Beginer)',
+      french: 'French - A2 (Elementary)'
     },
     contactsTitle: 'Contacts'
   },
+    sk: {
+    name: 'Dmitrii Rakov',
+    profession: 'Webový vývojár',
+    hometown: 'Bratislava, Slovensko',
+    layoutTitle: 'Frontend',
+    layoutList: 'HTML Pug CSS SCSS/SASS LESS Stylus BEM SMACSS',
+    jsTitle: 'JavaScript',
+    jsList: 'JavaScript/Babbel React/Redux Typescript',
+    designTitle: 'Dizajn',
+    designList: 'Figma AdobeXD Photoshop',
+    environmentTitle: 'Nástroje',
+    environmentList: 'Git/Github/Gitlab Docker Webpack/Gulp Jira/Basecamp PhpStorm/Sublime',
+    supportSkillsTitle: 'Údržba kódu',
+    supportSkillsList: 'Php Node.js Next.js Jest',
+    obsoleteSkillsTitle: 'Legacy',
+    obsoleteSkillsList: 'jQuery CoffeeScript Underscore.js Joomla Wordpress',
+    languagesTitle: 'Jazykové znalosti',
+    languagesList: {
+      english: 'Angličtina - B2 (stredne pokročilý)',
+      russian: 'Ruština - materinský jazyk',
+      slovakian: 'Slovenčina - A1 (začiatočník)',
+      french: 'Francúzština - A2 (základná úroveň)'
+    },
+    contactsTitle: 'Kontakty'
+  },
   ru: {
     name: 'Дмитрий Раков',
-    profession: 'Frontend-разработчик',
-    hometown: 'Стамбул, Турция',
+    profession: 'Web разработчик',
+    hometown: 'Братислава, Словакия',
     layoutTitle: 'Верстка',
     layoutList: 'HTML Pug CSS SCSS/SASS LESS Stylus BEM SMACSS',
     jsTitle: 'JavaScript',
@@ -38,14 +63,14 @@ const local = {
     environmentList: 'Git/Github/Gitlab Docker Webpack/Gulp Jira/Basecamp PhpStorm/Sublime',
     supportSkillsTitle: 'Поддержка кода',
     supportSkillsList: 'Php Node.js Next.js Jest',
-    obsoleteSkillsTitle: 'Устаревшие навыки',
+    obsoleteSkillsTitle: 'Legacy',
     obsoleteSkillsList: 'jQuery CoffeeScript Underscore.js Joomla Wordpress',
     languagesTitle: 'Языки',
     languagesList: {
       english: 'Английский - B2 (Upper-Intermediate)',
       russian: 'Русский - Native speaker',
-      spanish: 'Испанский - A1 (Elementary)',
-      turkey: 'Турецкий - A1 (Elementary)'
+      slovakian: 'Словацкий - A1 (Beginer)',
+      french: 'Французский - A2 (Elementary)'
     },
     contactsTitle: 'Контакты'
   }
