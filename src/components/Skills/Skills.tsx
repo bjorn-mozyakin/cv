@@ -34,86 +34,90 @@ const Skills = () => {
     obsoleteSkillsTitle,
     obsoleteSkillsList,
     languagesTitle,
-    languagesList
+    languagesList,
+    skillsText
   } = locale[currentLanguage];
 
   return (
-    <div className="skills">
-      <div className="skills__block">
-        <List direction="horizontal">
-          <ListTitle>{layoutTitle}</ListTitle>
-          {layoutList.split(' ').map((skill: string, i: number) => {
-            return (
-              <ListItem key={`item_${i}`}>
-                <Plate>{skill}</Plate>
-              </ListItem>
-            );
-          })}
-        </List>
-        <List direction="horizontal">
-          <ListTitle>{jsTitle}</ListTitle>
-          {jsList.split(' ').map((skill: string, i: number) => {
-            return (
-              <ListItem key={`item_${i}`}>
-                <Plate>{skill}</Plate>
-              </ListItem>
-            );
-          })}
-        </List>
-        <List direction="horizontal">
-          <ListTitle>{designTitle}</ListTitle>
-          {designList.split(' ').map((skill: string, i: number) => {
-            return (
-              <ListItem key={`item_${i}`}>
-                <Plate>{skill}</Plate>
-              </ListItem>
-            );
-          })}
-        </List>
-        <List direction="horizontal">
-          <ListTitle>{environmentTitle}</ListTitle>
-          {environmentList.split(' ').map((skill: string, i: number) => {
-            return (
-              <ListItem key={`item_${i}`}>
-                <Plate>{skill}</Plate>
-              </ListItem>
-            );
-          })}
-        </List>
+    <>
+      <div className="skills">
+        <div className="skills__block">
+          <List direction="horizontal">
+            <ListTitle>{layoutTitle}</ListTitle>
+            {layoutList.split(' ').map((skill: string, i: number) => {
+              return (
+                <ListItem key={`item_${i}`}>
+                  <Plate>{skill}</Plate>
+                </ListItem>
+              );
+            })}
+          </List>
+          <List direction="horizontal">
+            <ListTitle>{jsTitle}</ListTitle>
+            {jsList.split(' ').map((skill: string, i: number) => {
+              return (
+                <ListItem key={`item_${i}`}>
+                  <Plate>{skill}</Plate>
+                </ListItem>
+              );
+            })}
+          </List>
+          <List direction="horizontal">
+            <ListTitle>{designTitle}</ListTitle>
+            {designList.split(' ').map((skill: string, i: number) => {
+              return (
+                <ListItem key={`item_${i}`}>
+                  <Plate>{skill}</Plate>
+                </ListItem>
+              );
+            })}
+          </List>
+          <List direction="horizontal">
+            <ListTitle>{environmentTitle}</ListTitle>
+            {environmentList.split(' ').map((skill: string, i: number) => {
+              return (
+                <ListItem key={`item_${i}`}>
+                  <Plate>{skill}</Plate>
+                </ListItem>
+              );
+            })}
+          </List>
+        </div>
+        <div className="skills__block">
+          <List direction="horizontal">
+            <ListTitle>{supportSkillsTitle}</ListTitle>
+            {supportSkillsList.split(' ').map((skill: string, i: number) => {
+              return (
+                <ListItem key={`item_${i}`}>
+                  <Plate>{skill}</Plate>
+                </ListItem>
+              );
+            })}
+          </List>
+          <List direction="horizontal">
+            <ListTitle>{obsoleteSkillsTitle}</ListTitle>
+            {obsoleteSkillsList.split(' ').map((skill: string, i: number) => {
+              return (
+                <ListItem key={`item_${i}`}>
+                  <Plate>{skill}</Plate>
+                </ListItem>
+              );
+            })}
+          </List>
+          <List direction="horizontal">
+            <ListTitle>{languagesTitle}</ListTitle>
+            {Object.values(languagesList).map((lang: string, i: number) => {
+              return (
+                <ListItem key={`item_${i}`}>
+                  <Plate>{lang}</Plate>
+                </ListItem>
+              );
+            })}
+          </List>
+        </div>
       </div>
-      <div className="skills__block">
-        <List direction="horizontal">
-          <ListTitle>{supportSkillsTitle}</ListTitle>
-          {supportSkillsList.split(' ').map((skill: string, i: number) => {
-            return (
-              <ListItem key={`item_${i}`}>
-                <Plate>{skill}</Plate>
-              </ListItem>
-            );
-          })}
-        </List>
-        <List direction="horizontal">
-          <ListTitle>{obsoleteSkillsTitle}</ListTitle>
-          {obsoleteSkillsList.split(' ').map((skill: string, i: number) => {
-            return (
-              <ListItem key={`item_${i}`}>
-                <Plate>{skill}</Plate>
-              </ListItem>
-            );
-          })}
-        </List>
-        <List direction="horizontal">
-          <ListTitle>{languagesTitle}</ListTitle>
-          {Object.values(languagesList).map((lang: string, i: number) => {
-            return (
-              <ListItem key={`item_${i}`}>
-                <Plate>{lang}</Plate>
-              </ListItem>
-            );
-          })}
-        </List>
-      </div>
-    </div>
+      <div className="works__text">{skillsText}</div>
+    </>
   );
 };
 

@@ -23,6 +23,7 @@ const local = {
       french: 'French - A2 (Elementary)'
     },
     skillsTitle: 'Skills',
+    skillsText: 'Full resume available upon request.',
     contactsTitle: 'Contacts',
     worksTitle: 'Work Samples',
     worksText: "More work samples available upon request.",
@@ -108,6 +109,7 @@ const local = {
     },
     contactsTitle: 'Kontakty',
     skillsTitle: 'Zručnosti',
+    skillsText: 'Kompletné životopis je k dispozícii na požiadanie.',
     worksTitle: 'Ukážky prác',
     worksText: "Ďalšie ukážky prác sú k dispozícii na požiadanie.",
     worksList: [
@@ -192,6 +194,7 @@ const local = {
     },
     contactsTitle: 'Контакты',
     skillsTitle: 'Навыки',
+    skillsText: 'Полное резюме доступно по запросу.',
     worksTitle: 'Примеры работ',
     worksText: "Дополнительные примеры работ доступны по запросу.",
     worksList: [
