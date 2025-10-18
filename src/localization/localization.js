@@ -22,6 +22,7 @@ const local = {
       slovakian: 'Slovakian - A1 (Beginer)',
       french: 'French - A2 (Elementary)'
     },
+    skillsTitle: 'Skills',
     contactsTitle: 'Contacts',
     worksTitle: 'Work Samples',
     worksText: "More work samples available upon request.",
@@ -106,6 +107,7 @@ const local = {
       french: 'Francúzština - A2 (základná úroveň)'
     },
     contactsTitle: 'Kontakty',
+    skillsTitle: 'Zručnosti',
     worksTitle: 'Ukážky prác',
     worksText: "Ďalšie ukážky prác sú k dispozícii na požiadanie.",
     worksList: [
@@ -189,6 +191,7 @@ const local = {
       french: 'Французский - A2 (Elementary)'
     },
     contactsTitle: 'Контакты',
+    skillsTitle: 'Навыки',
     worksTitle: 'Примеры работ',
     worksText: "Дополнительные примеры работ доступны по запросу.",
     worksList: [
