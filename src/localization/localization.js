@@ -58,12 +58,12 @@ const local = {
         alt: 'View website',
         link: 'https://nekorobka.com/en'
       },      
-      {
-        title: 'Bellydance',
-        imgSrc: '/bellydance-200.jpg',
-        alt: 'View website',
-        link: 'https://bellydance.crablog.site/'
-      },
+      // {
+      //   title: 'Bellydance',
+      //   imgSrc: '/bellydance-200.jpg',
+      //   alt: 'View website',
+      //   link: 'https://bellydance.crablog.site/'
+      // },
       {
         title: 'Layout Construction',
         imgSrc: '/layout-tm-52266-200.jpg',
@@ -155,12 +155,12 @@ const local = {
         alt: 'Pozrieť si web',
         link: 'https://nekorobka.com/en'
       },         
-      {
-        title: 'Bellydance',
-        imgSrc: '/bellydance-200.jpg',
-        alt: 'Pozrieť si web',
-        link: 'https://bellydance.crablog.site/'
-      },
+      // {
+      //   title: 'Bellydance',
+      //   imgSrc: '/bellydance-200.jpg',
+      //   alt: 'Pozrieť si web',
+      //   link: 'https://bellydance.crablog.site/'
+      // },
       {
         title: 'Rozloženie Construction',
         imgSrc: '/layout-tm-52266-200.jpg',
@@ -234,12 +234,12 @@ const local = {
         alt: 'Посмотреть сайт',
         link: 'https://xploration.club/'
       },
-      {
-        title: 'Bellydance',
-        imgSrc: '/bellydance-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: 'https://bellydance.crablog.site/'
-      },
+      // {
+      //   title: 'Bellydance',
+      //   imgSrc: '/bellydance-200.jpg',
+      //   alt: 'Посмотреть сайт',
+      //   link: 'https://bellydance.crablog.site/'
+      // },
       {
         title: 'Shall We Swing',
         imgSrc: '/shall-we-swing-200.jpg',
