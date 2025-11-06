@@ -116,7 +116,7 @@ const Skills = () => {
           </List>
         </div>
       </div>
-      <div className="works__text">{skillsText}</div>
+      <div className="skills__text">{skillsText}</div>
     </>
   );
 };

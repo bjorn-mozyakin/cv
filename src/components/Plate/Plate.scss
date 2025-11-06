@@ -7,8 +7,8 @@
   border-radius: 6px;
   font-size: 16px;
   font-weight: 500;
-  color: $cWhite;
-  background-color: $cBlue;
+  color: $cBlack; //$cWhite;
+  background-color: $cBeigeMediumDark; //$cBlue;
 
   &:not(:first-child) {
     margin-left: $bmu;
