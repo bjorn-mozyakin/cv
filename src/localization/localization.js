@@ -31,56 +31,68 @@ const local = {
       {
         title: 'Balespo',
         imgSrc: '/balespo-200.jpg',
-        alt: 'Посмотреть сайт',
+        alt: 'View website',
         link: 'https://balespo.com/'
       },
       {
         title: 'Xploration',
         imgSrc: '/xploration-200.jpg',
-        alt: 'Посмотреть сайт',
+        alt: 'View website',
         link: 'https://xploration.club/'
       },
       {
-        title: 'Little Dino',
+        title: 'Little Dinos',
         imgSrc: '/little-dinos-200.jpg',
-        alt: 'Посмотреть сайт',
+        alt: 'View website',
         link: 'https://little-dinos-game.onrender.com/'
       },
       {
+        title: 'Shall We Swing',
+        imgSrc: '/shall-we-swing-200.jpg',
+        alt: 'View website',
+        link: 'https://www.shallweswinglyon.com/'
+      },
+      {
+        title: 'Nekorobka',
+        imgSrc: '/nekorobka-200.jpg',
+        alt: 'View website',
+        link: 'https://nekorobka.com/en'
+      },      
+      {
         title: 'Bellydance',
         imgSrc: '/bellydance-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'View website',
+        link: 'https://bellydance.crablog.site/'
       },
       {
-        title: 'Шаблон Construction',
+        title: 'Layout Construction',
         imgSrc: '/layout-tm-52266-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'View website',
+        link: 'https://portfolio.crablog.ru/portfolio/tm-52266/index.html'
       },
       {
-        title: 'Шаблон Car Rental',
+        title: 'Layout Car Rental',
         imgSrc: '/layout-tm-57633-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'View website',
+        link: 'https://portfolio.crablog.ru/portfolio/tm-57633/index.html'
       },
       {
-        title: 'Шаблон Gifts Store',
+        title: 'Layout Gifts Store',
         imgSrc: '/layout-tm-53330-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'View website',
+        link: 'https://portfolio.crablog.ru/portfolio/tm-53330/index.html'
       },
       {
-        title: 'Шаблон Bislite',
+        title: 'Layout Bislite',
         imgSrc: '/layout-bislite-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'View website',
+        link: 'https://portfolio.crablog.ru/portfolio/layout2-BisLite/index.html'
       },
       {
-        title: 'Шаблон Webpaine',
+        title: 'Layout Webpaine',
         imgSrc: '/layout-webpaint-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'View website',
+        link: 'https://portfolio.crablog.ru/portfolio/layout1/index.html'
       }                                                 
     ]
   },
@@ -116,56 +128,68 @@ const local = {
       {
         title: 'Balespo',
         imgSrc: '/balespo-200.jpg',
-        alt: 'Посмотреть сайт',
+        alt: 'Pozrieť si web',
         link: 'https://balespo.com/'
       },
       {
         title: 'Xploration',
         imgSrc: '/xploration-200.jpg',
-        alt: 'Посмотреть сайт',
+        alt: 'Pozrieť si web',
         link: 'https://xploration.club/'
       },
       {
-        title: 'Little Dino',
+        title: 'Little Dinos',
         imgSrc: '/little-dinos-200.jpg',
-        alt: 'Посмотреть сайт',
+        alt: 'Pozrieť si web',
         link: 'https://little-dinos-game.onrender.com/'
       },
       {
+        title: 'Shall We Swing',
+        imgSrc: '/shall-we-swing-200.jpg',
+        alt: 'Pozrieť si web',
+        link: 'https://www.shallweswinglyon.com/'
+      },      
+      {
+        title: 'Nekorobka',
+        imgSrc: '/nekorobka-200.jpg',
+        alt: 'Pozrieť si web',
+        link: 'https://nekorobka.com/en'
+      },         
+      {
         title: 'Bellydance',
         imgSrc: '/bellydance-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'Pozrieť si web',
+        link: 'https://bellydance.crablog.site/'
       },
       {
-        title: 'Шаблон Construction',
+        title: 'Rozloženie Construction',
         imgSrc: '/layout-tm-52266-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'Pozrieť si web',
+        link: 'https://portfolio.crablog.ru/portfolio/tm-52266/index.html'
       },
       {
-        title: 'Шаблон Car Rental',
+        title: 'Rozloženie Car Rental',
         imgSrc: '/layout-tm-57633-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'Pozrieť si web',
+        link: 'https://portfolio.crablog.ru/portfolio/tm-57633/index.html'
       },
       {
-        title: 'Шаблон Gifts Store',
+        title: 'Rozloženie Gifts Store',
         imgSrc: '/layout-tm-53330-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'Pozrieť si web',
+        link: 'https://portfolio.crablog.ru/portfolio/tm-53330/index.html'
       },
       {
-        title: 'Шаблон Bislite',
+        title: 'Rozloženie Bislite',
         imgSrc: '/layout-bislite-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'Pozrieť si web',
+        link: 'https://portfolio.crablog.ru/portfolio/layout2-BisLite/index.html'
       },
       {
-        title: 'Шаблон Webpaine',
+        title: 'Rozloženie Webpaine',
         imgSrc: '/layout-webpaint-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: '/'
+        alt: 'Pozrieť si web',
+        link: 'https://portfolio.crablog.ru/portfolio/layout1/index.html'
       }                                                 
     ]
   },
@@ -211,46 +235,58 @@ const local = {
         link: 'https://xploration.club/'
       },
       {
-        title: 'Little Dino',
-        imgSrc: '/little-dinos-200.jpg',
-        alt: 'Посмотреть сайт',
-        link: 'https://little-dinos-game.onrender.com/'
-      },
-      {
         title: 'Bellydance',
         imgSrc: '/bellydance-200.jpg',
         alt: 'Посмотреть сайт',
-        link: '/'
+        link: 'https://bellydance.crablog.site/'
       },
+      {
+        title: 'Shall We Swing',
+        imgSrc: '/shall-we-swing-200.jpg',
+        alt: 'Посмотреть сайт',
+        link: 'https://www.shallweswinglyon.com/'
+      },      
+      {
+        title: 'Nekorobka',
+        imgSrc: '/nekorobka-200.jpg',
+        alt: 'Посмотреть сайт',
+        link: 'https://nekorobka.com/en'
+      },        
+      {
+        title: 'Little Dinos',
+        imgSrc: '/little-dinos-200.jpg',
+        alt: 'Посмотреть сайт',
+        link: 'https://little-dinos-game.onrender.com/'
+      },       
       {
         title: 'Шаблон Construction',
         imgSrc: '/layout-tm-52266-200.jpg',
         alt: 'Посмотреть сайт',
-        link: '/'
+        link: 'https://portfolio.crablog.ru/portfolio/tm-52266/index.html'
       },
       {
         title: 'Шаблон Car Rental',
         imgSrc: '/layout-tm-57633-200.jpg',
         alt: 'Посмотреть сайт',
-        link: '/'
+        link: 'https://portfolio.crablog.ru/portfolio/tm-57633/index.html'
       },
       {
         title: 'Шаблон Gifts Store',
         imgSrc: '/layout-tm-53330-200.jpg',
         alt: 'Посмотреть сайт',
-        link: '/'
+        link: 'https://portfolio.crablog.ru/portfolio/tm-53330/index.html'
       },
       {
         title: 'Шаблон Bislite',
         imgSrc: '/layout-bislite-200.jpg',
         alt: 'Посмотреть сайт',
-        link: '/'
+        link: 'https://portfolio.crablog.ru/portfolio/layout2-BisLite/index.html'
       },
       {
         title: 'Шаблон Webpaine',
         imgSrc: '/layout-webpaint-200.jpg',
         alt: 'Посмотреть сайт',
-        link: '/'
+        link: 'https://portfolio.crablog.ru/portfolio/layout1/index.html'
       }                                                 
     ]
   }
