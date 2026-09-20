@@ -57,7 +57,25 @@ const local = {
         imgSrc: '/nekorobka-200.jpg',
         alt: 'View website',
         link: 'https://nekorobka.com/en'
-      },      
+      },  
+      {
+        title: 'Paper Racing',
+        imgSrc: '/paper-racing-200.jpg',
+        alt: 'View website',
+        link: 'https://idegtyarenko.github.io/paper-racing/'
+      }, 
+      {
+        title: 'Relocat',
+        imgSrc: '/relocat-help-200.jpg',
+        alt: 'View website',
+        link: 'https://relocat.help/'
+      },             
+      {
+        title: 'Slovak Gym',
+        imgSrc: '/slovak-gym-200.jpg',
+        alt: 'View website',
+        link: 'https://bjorn-mozyakin.github.io/slovakian-lang/'
+      },                                      
       // {
       //   title: 'Bellydance',
       //   imgSrc: '/bellydance-200.jpg',
@@ -154,7 +172,25 @@ const local = {
         imgSrc: '/nekorobka-200.jpg',
         alt: 'Pozrieť si web',
         link: 'https://nekorobka.com/en'
-      },         
+      }, 
+      {
+        title: 'Paper Racing',
+        imgSrc: '/paper-racing-200.jpg',
+        alt: 'Pozrieť si web',
+        link: 'https://idegtyarenko.github.io/paper-racing/'
+      },                     
+      {
+        title: 'Relocat',
+        imgSrc: '/relocat-help-200.jpg',
+        alt: 'Pozrieť si web',
+        link: 'https://relocat.help/'
+      },        
+      {
+        title: 'Slovak Gym',
+        imgSrc: '/slovak-gym-200.jpg',
+        alt: 'Pozrieť si web',
+        link: 'https://bjorn-mozyakin.github.io/slovakian-lang/'
+      },                  
       // {
       //   title: 'Bellydance',
       //   imgSrc: '/bellydance-200.jpg',
@@ -234,6 +270,12 @@ const local = {
         alt: 'Посмотреть сайт',
         link: 'https://xploration.club/'
       },
+      {
+        title: 'Little Dinos',
+        imgSrc: '/little-dinos-200.jpg',
+        alt: 'Посмотреть сайт',
+        link: 'https://little-dinos-game.onrender.com/'
+      },           
       // {
       //   title: 'Bellydance',
       //   imgSrc: '/bellydance-200.jpg',
@@ -253,11 +295,23 @@ const local = {
         link: 'https://nekorobka.com/en'
       },        
       {
-        title: 'Little Dinos',
-        imgSrc: '/little-dinos-200.jpg',
+        title: 'Paper Racing',
+        imgSrc: '/paper-racing-200.jpg',
         alt: 'Посмотреть сайт',
-        link: 'https://little-dinos-game.onrender.com/'
-      },       
+        link: 'https://idegtyarenko.github.io/paper-racing/'
+      },              
+      {
+        title: 'Relocat',
+        imgSrc: '/relocat-help-200.jpg',
+        alt: 'Посмотреть сайт',
+        link: 'https://relocat.help/'
+      },             
+      {
+        title: 'Slovak Gym',
+        imgSrc: '/slovak-gym-200.jpg',
+        alt: 'Посмотреть сайт',
+        link: 'https://bjorn-mozyakin.github.io/slovakian-lang/'
+      },             
       {
         title: 'Шаблон Construction',
         imgSrc: '/layout-tm-52266-200.jpg',
